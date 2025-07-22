@@ -14,4 +14,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <!-- 指定源码目录 -->
+        <sourceDirectory>solutions</sourceDirectory>
+    </build>
+
 </project>
