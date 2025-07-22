@@ -13,11 +13,11 @@
 
 ### 哈希 (Hash Table)
 
-| 题号  | 题目                                                                   |                 第 1 遍                 | 第 2 遍 | 第 3 遍 |
-|:---:|:---------------------------------------------------------------------|:-------------------------------------:|:-----:|:-----:|
-|  1  | [两数之和](https://leetcode.cn/problems/two-sum/)                        |    [✔](solutions/hot/TwoSum.java)     |       |       |
-| 49  | [字母异位词分组](https://leetcode.cn/problems/group-anagrams/)              | [✔](solutions/hot/GroupAnagrams.java) |       |       |
-| 128 | [最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/) |                                       |       |       |
+| 题号  | 题目                                                                   |                       第 1 遍                        | 第 2 遍 | 第 3 遍 |
+|:---:|:---------------------------------------------------------------------|:--------------------------------------------------:|:-----:|:-----:|
+|  1  | [两数之和](https://leetcode.cn/problems/two-sum/)                        |           [✔](solutions/hot/TwoSum.java)           |       |       |
+| 49  | [字母异位词分组](https://leetcode.cn/problems/group-anagrams/)              |       [✔](solutions/hot/GroupAnagrams.java)        |       |       |
+| 128 | [最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/) | [✔](solutions/hot/LongestConsecutiveSequence.java) |       |       |
 
 ### 双指针 (Two Pointers)
 
