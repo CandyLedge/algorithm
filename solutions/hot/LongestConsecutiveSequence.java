@@ -1,6 +1,8 @@
 package hot;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -37,4 +39,75 @@ public class LongestConsecutiveSequence {
     }
     //leetcode submit region end(Prohibit modification and deletion)
 
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution1 {
+        public int longestConsecutive(int[] nums) {
+            Map<Integer,Integer> m=new HashMap<>();
+            int ans=0;
+            for(int num:nums){
+                if(!m.containsKey(num)){
+                    int left=m.getOrDefault(num-1,0);
+                    int right=m.getOrDefault(num+1,0);
+                    int curLen=left+right+1;
+                    ans=Math.max(ans,curLen);
+                    m.put(num,-1);
+                    m.put(num-left,curLen);
+                    m.put(num+right,curLen);
+                }
+            }
+            return ans;
+        }
+    }
+    //leetcode submit region end(Prohibit modification and deletion)
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class UnionFind{
+        private Map<Integer,Integer> parent;
+        private Map<Integer,Integer> count;
+        public UnionFind(int[] nums){
+            parent=new HashMap<>();
+            count=new HashMap<>();
+            for(int num:nums){
+                parent.put(num,num);
+                count.put(num,1);
+            }
+        }
+
+        public Integer find(int x){
+            if(!parent.containsKey(x))
+                return null;
+            while (x!=parent.get(x)){
+                parent.put(x,parent.get(parent.get(x)));
+                x=parent.get(x);
+            }
+            return x;
+        }
+
+        public int union(int x,int y){
+            int rootX=find(x);
+            int rootY=find(y);
+            if(rootX==rootY)
+                return count.get(rootX);
+
+            parent.put(rootX,rootY);
+            count.put(rootY,count.get(rootX)+count.get(rootY));
+            return count.get(rootY);
+        }
+
+    }
+    class Solution2 {
+        public int longestConsecutive(int[] nums) {
+            if(nums==null||nums.length==0)
+                return 0;
+            UnionFind uf=new UnionFind(nums);
+
+            int ans=1;
+            for(int num:nums){
+                if(uf.find(num+1)!=null)
+                    ans=Math.max(ans, uf.union(num,num+1));
+            }
+            return ans;
+        }
+    }
+    //leetcode submit region end(Prohibit modification and deletion)
 }
