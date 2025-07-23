@@ -23,7 +23,7 @@
 
 | 题号  | 题目                                                                 | 第 1 遍 | 第 2 遍 | 第 3 遍 |
 |:---:|:-------------------------------------------------------------------|:-----:|:-----:|:-----:|
-| 283 | [移动零](https://leetcode.cn/problems/move-zeroes/)                   |       |       |       |
+| 283 | [移动零](https://leetcode.cn/problems/move-zeroes/)                   | [✔](solutions/hot/MoveZeroes.java)  |       |       |
 | 11  | [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/) |       |       |       |
 | 15  | [三数之和](https://leetcode.cn/problems/3sum/)                         |       |       |       |
 | 42  | [接雨水](https://leetcode.cn/problems/trapping-rain-water/)           |       |       |       |
