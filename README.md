@@ -25,7 +25,7 @@
 |:---:|:-------------------------------------------------------------------|:----------------------------------------------:|:-----:|:-----:|
 | 283 | [移动零](https://leetcode.cn/problems/move-zeroes/)                   |       [✔](solutions/hot/MoveZeroes.java)       |       |       |
 | 11  | [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/) | [✔](solutions/hot/ContainerWithMostWater.java) |       |       |
-| 15  | [三数之和](https://leetcode.cn/problems/3sum/)                         |                                                |       |       |
+| 15  | [三数之和](https://leetcode.cn/problems/3sum/)                         |        [✔](solutions/hot/ThreeSum.java)        |       |       |
 | 42  | [接雨水](https://leetcode.cn/problems/trapping-rain-water/)           |                                                |       |       |
 
 ---
