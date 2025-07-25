@@ -26,7 +26,14 @@
 | 283 | [移动零](https://leetcode.cn/problems/move-zeroes/)                   |       [✔](solutions/hot/MoveZeroes.java)       |       |       |
 | 11  | [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/) | [✔](solutions/hot/ContainerWithMostWater.java) |       |       |
 | 15  | [三数之和](https://leetcode.cn/problems/3sum/)                         |        [✔](solutions/hot/ThreeSum.java)        |       |       |
-| 42  | [接雨水](https://leetcode.cn/problems/trapping-rain-water/)           |                                                |       |       |
+| 42  | [接雨水](https://leetcode.cn/problems/trapping-rain-water/)           |   [✔](solutions/hot/TrappingRainWater.java)    |       |       |
+
+### 滑动窗口 (Sliding Window)
+
+| 题号  | 题目                                                                                                                                                | 第 1 遍 | 第 2 遍 | 第 3 遍 |
+|:---:|:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----:|:-----:|:-----:|
+| 438 | [找到字符串中的所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/?envType=study-plan-v2&envId=top-100-liked)               | []()  |       |       |
+|  3  | [无重复字符的最长子串]( https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/?envType=study-plan-v2&envId=top-100-liked) | []()  |       |       |
 
 ---
 
